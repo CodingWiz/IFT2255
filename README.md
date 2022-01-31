@@ -1,4 +1,4 @@
-# IFT2255
+# Projet VaxTodo du cours IFT2255
 
 Cette application est un prototype de VaxTodo permettant de faire de la plannification de rendez-vous de vaccination.
 Elle gère les comptes de employés, des bénévoles, ainsi que des visiteurs.
@@ -11,6 +11,7 @@ Il s'agit d'une application graphique, il est donc très facile de s'y reperer e
 - Gérer les comptes des visiteurs, bénévoles et employés.
 - Gérer les rendez-vous
 - Ajouter des informations importantes en lien au vaccin dans le compte du visiteur et de faire un suivi qui lui sera utile.
+
 ## Manuel d'utilisation
 
 Pour utiliser l'application (windows), vous aller devoir mettre dans un meme dossier à vous même, le dossier "jdk-17.0.1-Windows", 
@@ -23,23 +24,47 @@ au menu principal propre au rôle. Pour tester l'application, il est possible de
 ### Données incluses dans l'application
 
 - Employé
-    - Username: 111111111;
-
+    - Numéro de compte:&emsp;&ensp;111111111111
+    - Code d'identification:&emsp;111111111
+    - Mot de passe: &emsp;&emsp;&emsp;&emsp;Password1!
+    - Numéro de téléphone:&ensp;1234567890
+    - Nom:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Test-Nom
+    - Prénom: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Test-Prenom
+    - Adresse: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;123 Test-Adresse
+    - Code Postal: &emsp;&emsp;&emsp;&emsp;&emsp;A0A0A0
+    - Ville:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Test-Ville
+    - Courriel:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Test-Courriel@test.com
+<br/><br/>
 - Bénévole
-  - Username: 111111111;
+    - Numéro de compte:&emsp;&ensp;111111111111
+    - Code d'identification:&emsp;111111111
+    - Mot de passe: &emsp;&emsp;&emsp;&emsp;Password1!
+    - Numéro de téléphone:&ensp;1234567890
+    - Nom:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Test-Nom
+    - Prénom: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Test-Prenom
+    - Adresse: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;123 Test-Adresse
+    - Code Postal: &emsp;&emsp;&emsp;&emsp;&emsp;A0A0A0
+    - Ville:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Test-Ville
+    - Courriel:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Test-Courriel@test.com
+    - Date de Naissance: &emsp;&emsp;1990-01-01
 
 ### Connexion
 
 Pour se connecter à l'application, veuillez utiliser un des identifiants suivants:
 
-- Rôle de l'employé
-    - username: 111111111 | password: Password1!
-- Rôle du bénévole
-    - username: 111111111 | password: Password1!
+- Connexion Employé
+    - Code d'identification:&emsp;111111111
+    - Mot de passe: &emsp;&emsp;&emsp;&emsp;Password1!
+<br/><br/>
+- Connexion Bénévole
+    - Code d'identification:&emsp;111111111
+    - Mot de passe: &emsp;&emsp;&emsp;&emsp;Password1!
 
-### Menu principal (Employé)
+![Menu Principal](./images/Menu\ Principal.PNG "Menu Principal")
 
-À partir du menu principal, dans le rôle de l'employé, vous pouvez cliquer sur l'option de votre choix.
+### Menu Employé
+
+À partir du menu employé, dans le rôle de l'employé, vous pouvez cliquer sur l'option de votre choix.
 En tout tant vous pouvez cliquer sur le bouton "retour" pour revenir en arrière ou le bouton "déconnexion" pour revenir à l'écran de connexion.
 
 - Gestion des visiteurs: Accédez à la liste des visiteurs et ajouter, modifier ou supprimer un visiteur.
@@ -48,11 +73,9 @@ En tout tant vous pouvez cliquer sur le bouton "retour" pour revenir en arrière
 - Gestion des employés : Accédez à la liste des employés et ajouter, modifier ou supprimer un employé.
 - Gestion des bénévoles : Accédez à la liste des bénévoles et ajouter, modifier ou supprimer un bénévole.
 
+### Menu Bénévole
 
-
-### Menu principal (Bénévole)
-
-À partir du menu principal, dans le rôle du bénévole, vous pouvez cliquer sur l'option de votre choix.
+À partir du menu bénévole, dans le rôle du bénévole, vous pouvez cliquer sur l'option de votre choix.
 En tout tant vous pouvez cliquer sur le bouton "retour" pour revenir en arrière ou le bouton "déconnexion" pour revenir à l'écran de connexion.
 
 - Menu liste des visiteurs : Chercher et voir les informations d'un visiteur. Il est impossible d'apporter des modifications à cette liste.
