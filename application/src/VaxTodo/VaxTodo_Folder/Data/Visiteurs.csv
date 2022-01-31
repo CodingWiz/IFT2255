@@ -1,0 +1,5 @@
+#! lngNoCompte, lngNoTel, strNom, strPrenom, strAdresse, strCodePostal, strVille, strCourriel, strDateNaissance
+555555555555,0,,,,,,,
+777777777777,0,,,,,,test@test.caa,
+999999999999,0,Nom,Prenom,,,,blah@blah.ca,
+888888888888,5149610249,Guelleh,Mohamed H,4522 rue Cloverdale,h8y2b2,Pierrefonds,test@test.ca,2021-12-10

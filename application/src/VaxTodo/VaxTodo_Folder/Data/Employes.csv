@@ -1,0 +1,4 @@
+#! intCodeIdentification, strMotDePasse; lngNoCompte, lngNoTel, strNom, strPrenom, strAdresse, strCodePostal, strVille, strCourriel
+111111111,x4KlW5I0vFgMFp6RhBLH/KtCPGx7lD7AGiHpVkMq73JR6kPvFjdmCIF5iuUPuBLcNceyDAcK;111111111111,1234567890,Test-Nom,Test-Prenom,123 Test-Adresse,A0A0A0,Test-Ville,Test-Courriel@test.com
+111111112,O2bEgYE17qC/4H7PrviKk8/MYR/qQDUlw2j4vTWKtLgjQgFWYRCatNBImLo8/PpTKQSvLZgY;111111111112,1234567890,Test-Nom,Test-Prenom,123 Test-Adresse,A0A0A0,Test-Ville,Test-Courriel@test.com
+211131112,EqdNFZLKkPvXZSn/Y1eKhNxreM9xMj8pZCGpfh/sqNMDF8cLeJBrmcbPjnc+OujWM4kXb0JC;222222222222,0,Guelleh,Mohamed,,,,

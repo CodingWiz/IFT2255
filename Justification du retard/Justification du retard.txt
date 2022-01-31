@@ -1,0 +1,4 @@
+Bonjour, le retard de deux heures est de ma faute (Christian Lungescu), car je souffre présentement de 
+dysthymie/dépression et est également dû à un problème où le push de Mohamed se uploadais à 50-100 kbps.
+
+Mes attestations médicales et les captures d'écran du problème bitbucket sont dans le dossier.

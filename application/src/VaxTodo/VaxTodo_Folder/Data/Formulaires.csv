@@ -1,0 +1,3 @@
+#! lngNoCompte, lngNoTel, strNom, strPrenom, strAdresse, strCodePostal, strVille, strCourriel, strDateNaissance, strCarteAssuranceMaladie, strDateVisite, etbFirstDose, etbHadCovid, etbHasCovidSymptoms, etbHasAllergies, etbGotVaccinated, enumTypeVaccin, intTypeDose, strCodeVaccin
+555555555555,5149610249,Mohamed H,Guelleh,4522 rue Cloverdale,h8y2b2,Pierrefonds,test@test.ca,1997-10-10,GUEM10109705,2021-12-01,OUI,OUI,OUI,OUI,OUI,ASTRAZENECA,2,########################
+777777777777,0,Mohamed,Guelleh,,,,,2021-12-17,ghnnmtfyhhgk,,OUI,OUI,OUI,OUI,OUI,JANSSEN,2,########################
