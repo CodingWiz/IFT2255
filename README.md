@@ -1,5 +1,7 @@
 # Projet VaxTodo du cours IFT2255
 
+![VaxTodo Gif](./images/VaxTodo.gif)
+
 Cette application est un prototype de VaxTodo permettant de faire de la plannification de rendez-vous de vaccination.
 Elle gère les comptes de employés, des bénévoles, ainsi que des visiteurs.
 Il s'agit d'une application graphique, il est donc très facile de s'y reperer et l'application est très intuitive.
