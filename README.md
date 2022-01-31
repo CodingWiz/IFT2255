@@ -4,13 +4,19 @@ Cette application est un prototype de VaxTodo permettant de faire de la plannifi
 Elle gère les comptes de employés, des bénévoles, ainsi que des visiteurs.
 Il s'agit d'une application graphique, il est donc très facile de s'y reperer et l'application est très intuitive.
 
-
 ## Fonctionnalités
 
 - Réserver une période de vaccination.
 - Gérer les comptes des visiteurs, bénévoles et employés.
 - Gérer les rendez-vous
 - Ajouter des informations importantes en lien au vaccin dans le compte du visiteur et de faire un suivi qui lui sera utile.
+
+## Quelques spécifications
+
+- L'application comporte plusieurs validations (validation à l'entrée, validation de lecture et d'écriture sur les fichiers).
+- Encryption des mots de passse et des fichiers avec un algorithme de grade militaire.
+- Code isolé et utilisation de l'héritage et de l'abstraction
+- les classes modèles ont des ReturnClass pour retourner plus qu'une valeur
 
 ## Manuel d'utilisation
 
@@ -48,7 +54,7 @@ au menu principal propre au rôle. Pour tester l'application, il est possible de
     - Courriel:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Test-Courriel@test.com
     - Date de Naissance: &emsp;&emsp;1990-01-01
 
-### Connexion
+### Menu Connexion
 
 Pour se connecter à l'application, veuillez utiliser un des identifiants suivants:
 
@@ -60,7 +66,16 @@ Pour se connecter à l'application, veuillez utiliser un des identifiants suivan
     - Code d'identification:&emsp;111111111
     - Mot de passe: &emsp;&emsp;&emsp;&emsp;Password1!
 
-![Menu Principal](./images/Menu\ Principal.PNG "Menu Principal")
+
+![Menu Principal](./images/Menu_Principal.PNG)
+<br/><br/>
+
+### Menu Mot de passe Oublié
+
+
+
+
+![Menu Lister Infos d'un Compte Trouvé](./images/Menu_Forgot_Password_Found.PNG)
 
 ### Menu Employé
 
@@ -73,6 +88,48 @@ En tout tant vous pouvez cliquer sur le bouton "retour" pour revenir en arrière
 - Gestion des employés : Accédez à la liste des employés et ajouter, modifier ou supprimer un employé.
 - Gestion des bénévoles : Accédez à la liste des bénévoles et ajouter, modifier ou supprimer un bénévole.
 
+![Menu Employé](./images/Menu_Employe.PNG)
+
+### Menu Gestion des Employés
+
+
+
+
+![Menu Gestion des Employés](./images/Menu_Gestion_Employes.PNG)
+<br/><br/>
+
+### Menu Gestion des Bénévole
+
+
+
+
+![Menu Gestion des Bénévole](./images/Menu_Gestion_Benevoles.PNG)
+<br/><br/>
+
+### Menu Gestion des Visiteurs
+
+
+
+
+![Menu Gestion des Visiteurs](./images/Menu_Gestion_Visiteurs.PNG)
+<br/><br/>
+
+### Menu Gestion des Visites Planifiées
+
+
+
+
+![Menu Gestion des Visites Planifiées](./images/Menu_Calendrier.PNG)
+<br/><br/>
+
+### Menu Gestion des Formulaires
+
+
+
+
+![Menu Gestion des Formulaires](./images/Menu_Gestion_Formulaires.PNG)
+<br/><br/>
+
 ### Menu Bénévole
 
 À partir du menu bénévole, dans le rôle du bénévole, vous pouvez cliquer sur l'option de votre choix.
@@ -83,9 +140,7 @@ En tout tant vous pouvez cliquer sur le bouton "retour" pour revenir en arrière
 
 Aucune gestion d'employés, de bénévoles est possible avec les droits d'un bénévole.
 
-### Quelques spécifications
 
-- L'application comporte plusieurs validations (validation à l'entrée, validation de lecture et d'écriture sur les fichiers).
-- Encryption des mots de passse et des fichiers avec un algorithme de grade militaire.
-- Code isolé et utilisation de l'héritage et de l'abstraction
-- les classes modèles ont des ReturnClass pour retourner plus qu'une valeur
+![Menu Bénévole](./images/Menu_Benevole.PNG)
+
+
